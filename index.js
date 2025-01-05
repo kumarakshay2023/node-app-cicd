@@ -6,6 +6,9 @@ app.get('/', (req, res) => {
     res.send('Hello, World!')
 })
 
+app.get('/api/call', (req, res) => {
+    res.send('Hello, World')  
+})
 app.get('/api/products', (req, res) => { 
     res.send('Products listing')
 })
